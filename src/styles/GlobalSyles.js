@@ -17,7 +17,7 @@ body{
    color: ${(props) => props.theme.text};
    text-align: left;
    margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat' , 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
@@ -45,17 +45,19 @@ h3 {
    }
 }
 h4 {
-   font-size: 2.4rem;
+   font-size: 3rem;
    margin: 1.5rem 0 0 0;
+   font-family: 'Playfair Display', sans-serif;
    color: ${(props) => props.theme.textAlt};
 }
 h5 {
-   font-size: 1.4rem;
-   font-weight: 400;
+   font-size: 2.7rem;
+   font-weight: bold;
+   color: ${(props) => props.theme.text};
    margin: 0;
 }
 p, ul, li, span, label {
-   font-size: 1.6rem;
+   font-size: 1.8rem;
 }
 label {
    font-weight: bold;
