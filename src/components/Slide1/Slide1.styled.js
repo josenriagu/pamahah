@@ -8,13 +8,6 @@ export const Slide1Div = styled.div`
   height: 100vh;
   position: relative;
   background: ${props => props.theme.body};
-  #overlay {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    background: ${props => props.theme.bgColor};
-  }
-  z-index: -1;
   background-image: url('/assets/slide1/slide1-bg.jpg');
   /* background color is the fallback for when the image is not available */
   background-color: ${props => props.theme.body};
@@ -25,7 +18,13 @@ export const Slide1Div = styled.div`
   div {
     border-radius: 50%;
   }
-  div#parent {
+  div#overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background: ${props => props.theme.bgColor};
+  }
+  div#parent1 {
     width: 9rem;
     height: 9rem;
     top: 5%;
@@ -35,11 +34,10 @@ export const Slide1Div = styled.div`
     align-items: center;
     position: absolute;
     background: ${colors.secondaryRGB};
-    div#child {
+    div#child1 {
       width: 4.5rem;
       height: 4.5rem;
       background: ${colors.primary};
-      position: relative;
     }
   }
   div#slide11 {
@@ -55,6 +53,7 @@ export const Slide1Div = styled.div`
     background-size: auto;
     background-position: 55% -5%;
     background-repeat: no-repeat;
+    /* changes the background image to somewhat grayscale */
     background-blend-mode: luminosity;
   }
   div#slide12 {
@@ -83,7 +82,6 @@ export const Slide1Div = styled.div`
     background-color: ${props => props.theme.body};
     background-size: contain;
     background-position: 100% 0%;
-    /* background-repeat: no-repeat; */
   }
   div#brother {
     width: 9rem;
@@ -109,17 +107,7 @@ export const Slide1Div = styled.div`
     position: absolute;
     background: ${colors.secondaryRGB};
   }
-  div#nameplate{
-    width: 25rem;
-    height: 25rem;
-    position: absolute;
-    z-index: 3;
-    bottom: -7.5rem;
-    left: 7.5rem;
-    background: ${props => props.theme.body};
-    animation: ${boxShadowAliveAlt} 4s infinite ease-in-out;
-    text-align: center;
-  }
+  div#nameplate,
   div#nameplateAlt{
     width: 25rem;
     height: 25rem;
@@ -128,16 +116,20 @@ export const Slide1Div = styled.div`
     bottom: -7.5rem;
     left: 7.5rem;
     background: ${props => props.theme.body};
-    animation: ${boxShadowAlive} 4s infinite ease-in-out;
     text-align: center;
+  }
+  div#nameplate {
+    animation: ${boxShadowAliveAlt} 4s infinite ease-in-out;
+  }
+  div#nameplateAlt{
+    animation: ${boxShadowAlive} 4s infinite ease-in-out;
   }
   h4, p {
     text-transform: uppercase;
     margin-top: 2.5rem;
-
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: ${colors.primary};
   }

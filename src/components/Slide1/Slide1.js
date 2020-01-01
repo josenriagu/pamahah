@@ -1,12 +1,13 @@
 import React from 'react';
+
 import { Slide1Div } from './Slide1.styled';
 
 const Slide1 = ({ theme }) => {
   return (
     <Slide1Div id="slide1">
       <div id="overlay"></div>
-      <div id="parent">
-        <div id="child">
+      <div id="parent1">
+        <div id="child1">
         </div>
       </div>
       <div id="slide11"></div>
