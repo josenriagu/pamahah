@@ -7,6 +7,7 @@ import GlobalStyle from './styles/GlobalSyles';
 import Slide1 from './components/Slide1';
 import Slide2 from './components/Slide2/';
 import Slide3 from './components/Slide3';
+import Slide4 from './components/Slide4';
 import { AppDiv } from './App.styled';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Slide1 theme={theme} />
           <Slide2 theme={theme} />
           <Slide3 theme={theme} />
+          <Slide4 />  
         </AppDiv>
       </>
     </ThemeProvider>

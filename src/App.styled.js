@@ -12,9 +12,10 @@ export const AppDiv = styled.div`
     width: ${sizes.mobileRes};
     margin: .5rem auto;
   } */
-  #slide1,
-  #slide2,
-  #slide3 {
+  div#slide1,
+  div#slide2,
+  div#slide3,
+  div#slide4 {
     :hover {
       transition: box-shadow 2s;
       box-shadow: 0 0 1rem 0.3rem rgba(167, 167, 167, 1);

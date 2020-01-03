@@ -31,7 +31,7 @@ h1 {
    }
 }
 h2 {
-   font-size: 3.5rem;
+   font-size: 5rem;
    margin-top: 1rem;
    font-weight: 400;
    color: ${colors.gold}
