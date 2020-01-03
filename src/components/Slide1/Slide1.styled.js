@@ -99,7 +99,7 @@ export const Slide1Div = styled.div`
     position: absolute;
     background: ${colors.primary};
   }
-  div#loner{
+  div#loner11{
     width: 30rem;
     height: 30rem;
     right: 22%;

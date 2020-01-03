@@ -18,7 +18,7 @@ const Slide3 = () => {
             positions.map((position, idx) =>
               position.side === 'left' ?
                 (
-                  <div id={idx}>
+                  <div key={idx} id={idx}>
                     <p><strong>{position.title}</strong></p>
                     <p>{position.company}</p>
                     <a href={`https://${position.link}`} rel="noopener noreferrer">
@@ -37,7 +37,7 @@ const Slide3 = () => {
             positions.map((position, idx) =>
               position.side === 'right' ?
                 (
-                  <div id={idx}>
+                  <div key={idx} id={idx}>
                     <p><strong>{position.title}</strong></p>
                     <p>{position.company}</p>
                     <a href={`https://${position.link}`} rel="noopener noreferrer">
