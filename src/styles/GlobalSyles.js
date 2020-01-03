@@ -48,12 +48,12 @@ h4 {
    font-size: 3rem;
    margin: 1.5rem 0 0 0;
    font-family: 'Playfair Display', sans-serif;
-   color: ${(props) => props.theme.textAlt};
+   color: ${(props) => props.theme.texth4};
 }
 h5 {
    font-size: 2.7rem;
    font-weight: bold;
-   color: ${(props) => props.theme.text};
+   color: ${(props) => props.theme.texth5};
    margin: 0;
 }
 p, ul, li, span, label {
