@@ -56,6 +56,11 @@ h5 {
    color: ${(props) => props.theme.texth5};
    margin: 0;
 }
+h6 {
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin: 0;
+}
 p, ul, li, span, label {
    font-size: 1.8rem;
 }
