@@ -63,7 +63,7 @@ export const Slide1Div = styled.div`
     left: -25rem;
     position: absolute;
     opacity: .4;
-    z-index: 2; 
+    z-index: 2;
     background: ${props => props.theme.body};
     background-image: url('/assets/slide1/slide1-2.jpg');
     background-color: ${props => props.theme.body};
@@ -83,7 +83,7 @@ export const Slide1Div = styled.div`
     background-size: contain;
     background-position: 100% 0%;
   }
-  div#brother {
+  div#brother11 {
     width: 9rem;
     height: 9rem;
     right: 3%;
@@ -91,7 +91,7 @@ export const Slide1Div = styled.div`
     position: absolute;
     background: ${colors.secondary};
   }
-  div#sister {
+  div#sister11 {
     width: 7rem;
     height: 7rem;
     right: 8%;

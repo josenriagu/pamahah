@@ -13,8 +13,8 @@ const Slide1 = ({ theme }) => {
       <div id="slide11"></div>
       <div id="slide12"></div>
       <div id="slide13"></div>
-      <div id="brother"></div>
-      <div id="sister"></div>
+      <div id="brother11"></div>
+      <div id="sister11"></div>
       <div id="loner11"></div>
       <div id={theme === 'light' ? "nameplate" : "nameplateAlt"}>
         <h4>Amahah <br />Promise Ndidi</h4>
